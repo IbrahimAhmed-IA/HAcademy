@@ -2,6 +2,9 @@ import { mkdir, writeFile } from 'fs/promises';
 import { join } from 'path';
 import { existsSync } from 'fs';
 
+// Add type declaration for __dirname
+declare const __dirname: string;
+
 const assets = {
   images: [
     {
